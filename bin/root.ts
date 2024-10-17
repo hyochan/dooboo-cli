@@ -140,19 +140,19 @@ program
 
           switch (options[0].value) {
             case TYPE_OF_APP.EXPO_48:
-              template = `-b ${EXPO_48_BRANCH} https://github.com/dooboolab-community/expo-router-starter.git`;
+              template = `-b ${EXPO_48_BRANCH} https://github.com/hyochan/expo-router-starter.git`;
 
               break;
             case TYPE_OF_APP.EXPO_49:
-              template = `-b ${EXPO_49_BRANCH} https://github.com/dooboolab-community/expo-router-starter.git`;
+              template = `-b ${EXPO_49_BRANCH} https://github.com/hyochan/expo-router-starter.git`;
 
               break;
             case TYPE_OF_APP.EXPO_50:
-              template = `-b ${EXPO_50_BRANCH} https://github.com/dooboolab-community/expo-router-starter.git`;
+              template = `-b ${EXPO_50_BRANCH} https://github.com/hyochan/expo-router-starter.git`;
 
               break;
             default:
-              template = `-b ${LATEST} https://github.com/dooboolab-community/expo-router-starter.git`;
+              template = `-b ${LATEST} https://github.com/hyochan/expo-router-starter.git`;
               break;
           }
 

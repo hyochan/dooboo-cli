@@ -2,12 +2,12 @@
 
 The cli tool for building faster app with [Expo](http://expo.io) and [Expo Router](https://expo.github.io/router).
 
-[![CI](https://github.com/dooboolab/dooboo-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/dooboolab/dooboo-cli/actions/workflows/ci.yml)
-[![deploy pkg](https://github.com/dooboolab/dooboo-cli/actions/workflows/deploy.yml/badge.svg)](https://github.com/dooboolab/dooboo-cli/actions/workflows/deploy.yml)
+[![CI](https://github.com/hyochan/dooboo-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/hyochan/dooboo-cli/actions/workflows/ci.yml)
+[![deploy pkg](https://github.com/hyochan/dooboo-cli/actions/workflows/deploy.yml/badge.svg)](https://github.com/hyochan/dooboo-cli/actions/workflows/deploy.yml)
 [![Npm Version](http://img.shields.io/npm/v/dooboo.svg?style=flat-square)](https://npmjs.org/package/dooboo)
 [![Downloads](http://img.shields.io/npm/dm/dooboo.svg?style=flat-square)](https://npmjs.org/package/dooboo)
 ![License](http://img.shields.io/npm/l/dooboo.svg?style=flat-square)
-[![Greenkeeper badge](https://badges.greenkeeper.io/dooboolab-community/dooboo-cli.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/hyochan/dooboo-cli.svg)](https://greenkeeper.io/)
 
 ## Announcement
 
@@ -25,7 +25,7 @@ In addition, we're shifting our approach with the [`dooboo-cli`](https://www.npm
 - [react-native](https://github.com/facebook/react-native)
 - [expo-router](https://expo.github.io/router)
 - [emotion](https://emotion.sh)
-- [dooboo-ui](https://github.com/dooboolab-community/dooboo-ui)
+- [dooboo-ui](https://github.com/hyochan/dooboo-ui)
 - [jest](https://github.com/facebook/jest)
 - [react-native-testing-library](https://github.com/callstack/react-native-testing-library)
 - [typescript](https://github.com/Microsoft/TypeScript)
@@ -36,7 +36,7 @@ In addition, we're shifting our approach with the [`dooboo-cli`](https://www.npm
 
 ## Quick News
 
-- In default, [dooboo-ui](https://github.com/dooboolab/dooboo-ui) ui framework is preinstalled in the project. Hope you like it 🧡.
+- In default, [dooboo-ui](https://github.com/hyochan/dooboo-ui) ui framework is preinstalled in the project. Hope you like it 🧡.
 
 ## Usage
 
@@ -81,4 +81,4 @@ npm uninstall -g dooboo
 npm run link
 ```
 
-- [Expo Router Starter](https://github.com/dooboolab-community/expo-router-starter)
+- [Expo Router Starter](https://github.com/hyochan/expo-router-starter)

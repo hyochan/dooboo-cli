@@ -1,7 +1,7 @@
 {
   "name": "dooboo",
-  "version": "0.1.13",
-  "description": "Expo and expo router starter kit maintained by dooboolab.",
+  "version": "0.1.14",
+  "description": "Expo and expo router starter kit maintained by hyochan.",
   "bin": {
     "dooboo": "lib/bin/root.js"
   },
@@ -12,7 +12,7 @@
     "build": "rm -rf lib/ && npm run lint && npm run tsc && cp -r templates lib/",
     "deploy": "npm run build && npm publish"
   },
-  "author": "dooboolab",
+  "author": "hyochan",
   "license": "MIT",
   "keywords": [
     "react",
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dooboolab-community/dooboo-cli.git"
+    "url": "git+https://github.com/hyochan/dooboo-cli.git"
   },
   "publishConfig": {
     "access": "public"

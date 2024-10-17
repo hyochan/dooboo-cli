@@ -22,7 +22,7 @@ interface Props {
 
 function StateProvider({children}: Props): JSX.Element {
   const [user, setUser] = useState<User>({
-    displayName: 'dooboolab',
+    displayName: 'hyochan',
     age: 18,
     job: 'dev',
   });
