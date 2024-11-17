@@ -30,6 +30,8 @@ import {
   EXPO_48_BRANCH,
   EXPO_49_BRANCH,
   EXPO_50_BRANCH,
+  EXPO_51_BRANCH,
+  EXPO_52_BRANCH,
   LATEST,
 } from './const.js';
 
@@ -46,6 +48,7 @@ export enum TYPE_OF_APP {
   EXPO_49 = 2,
   EXPO_50 = 3,
   EXPO_51 = 4,
+  EXPO_52 = 5,
 }
 
 export enum TYPE_OF_RN_NAVIGATION {
@@ -112,6 +115,7 @@ program
 
     list
       .option(' Latest ', 0)
+      .option(' Expo SDK 52 ', TYPE_OF_APP.EXPO_52)
       .option(' Expo SDK 51 ', TYPE_OF_APP.EXPO_51)
       .option(' Expo SDK 50 ', TYPE_OF_APP.EXPO_50)
       .option(' Expo SDK 49 ', TYPE_OF_APP.EXPO_49)
@@ -149,6 +153,14 @@ program
               break;
             case TYPE_OF_APP.EXPO_50:
               template = `-b ${EXPO_50_BRANCH} https://github.com/hyochan/expo-router-starter.git`;
+
+              break;
+            case TYPE_OF_APP.EXPO_51:
+              template = `-b ${EXPO_51_BRANCH} https://github.com/hyochan/expo-router-starter.git`;
+
+              break;
+            case TYPE_OF_APP.EXPO_52:
+              template = `-b ${EXPO_52_BRANCH} https://github.com/hyochan/expo-router-starter.git`;
 
               break;
             default:
